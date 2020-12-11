@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./styles.scss";
 
-const Teaser = ({ title, subtitle, src, type }) => {
+const Teaser = ({ src, genre, title, subtitle, type }) => {
 	return (
 		<div className={`teaser teaser--${type}`}>
 			<img src={src} alt="Testbild" />
-			<h2>{title}</h2>
-			<h3>{subtitle}</h3>
+			<div className="text--box" />
+			<h4>{genre}</h4>
+			<h1>{title}</h1>
+			<p>{subtitle}</p>
 		</div>
 	);
 };
