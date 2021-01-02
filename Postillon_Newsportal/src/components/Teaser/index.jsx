@@ -7,7 +7,10 @@ const Teaser = ({ src, genre, title, subtitle, type }) => {
 			<img src={src} alt="Testbild" />
 			<div class="content">
 				<div className="text--box">
-					<h4>{genre}</h4>
+					<div className="thema--underline">
+						<h4>{genre}</h4>
+						<img src="./assets/vectors/linie.svg" alt="linie" />
+					</div>
 					<h1>{title}</h1>
 					<p>{subtitle}</p>
 				</div>
