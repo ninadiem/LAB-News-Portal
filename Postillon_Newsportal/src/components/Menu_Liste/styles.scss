@@ -5,6 +5,10 @@ nav {
 	height: auto;
 
 	ul {
+		align-items: flex-start;
+		margin: 0;
+		padding: 0;
+
 		li {
 			font-family: "Almendra", serif;
 			font-weight: 700;
@@ -12,16 +16,35 @@ nav {
 			display: inline-block;
 			padding: 0.5em;
 			// float: left;
+
+			font-size: 0.5rem * $font-scale--default * $font-scale--default;
+			margin-top: 0;
+			margin-bottom: 0;
+
+			@include media(m) {
+				font-size: 0.5rem * $font-scale--m * $font-scale--m;
+				// color: aqua;
+			}
+
+			@include media(l) {
+				font-size: 0.5rem * $font-scale--l * $font-scale--l;
+				// color: chartreuse;
+			}
 		}
 	}
 }
 
-// .menu.ul {
-// }
 
-// .menu.ul.li {
-// }
 
-// .menu.ul.li.a {
-// 	text-decoration: none;
-// }
+
+.linie {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid red;
+    -webkit-transform:
+        translateY(-20px)
+        translateX(5px)
+        rotate(27deg); 
+    position: absolute;
+    /* top: -20px; */
+
