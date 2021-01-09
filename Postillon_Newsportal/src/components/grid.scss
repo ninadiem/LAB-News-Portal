@@ -77,9 +77,12 @@ div[class^="card-"] {
 	height: auto;
 }
 
-.artikel--eins {
+.teaser--gross {
 	grid-column: span 8;
-	// grid-row: span 8;
+}
+
+.teaser--klein {
+	grid-column: span 4;
 }
 
 .werbung--eins,
