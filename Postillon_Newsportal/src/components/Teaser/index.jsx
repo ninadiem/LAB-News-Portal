@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Like from "../Like/index.jsx"
 import "./styles.scss";
 
 const Teaser = ({ src, genre, title, subtitle, type }) => {
@@ -15,9 +16,7 @@ const Teaser = ({ src, genre, title, subtitle, type }) => {
 					<p>{subtitle}</p>
 				</div>
 				<div class="like--komponente">
-					<div component="like"></div>
-					<div component="like" start="54"></div>
-					<div component="like" start="23"></div>
+					<Like start={54}/>
 				</div>
 			</div>
 		</div>
