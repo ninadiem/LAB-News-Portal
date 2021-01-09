@@ -42,18 +42,35 @@ nav {
 .linie {
 	width: 100%;
 	height: 10px;
-	// opacity: 0;
-	// background-color: black;
-	border-bottom: 1px solid red;
-	// transform: rotate(-10deg);
-	transform: translateY(-20px) translateX(5px) rotate(27deg);
+	opacity: 0;
+	border-bottom: 0.2em solid #ff766e;
+	transform: translateY(-10px) translateX(0px) rotate(-8deg);
 	margin-top: 0;
 	position: absolute;
 }
 
-// .thema--underline:hover .linie {
-// 	opacity: 100%;
-// 	background-color: #ff766e;
+.thema--underline:hover .linie {
+	color: #ff766e;
+	opacity: 100;
+}
+
+.thema--underline:hover .menupunkt {
+	color: #ff766e;
+}
+
+a:focus .linie {
+	color: #a1001c;
+	button:focus {
+		outline: none;
+	}
+}
+
+.a:focus .menupunkt {
+	color: #a1001c;
+}
+
+// a:focus {
+// 	color: #a1001c;
 // }
 
 // --------------------------------- VAR 1 ---------------------------------

@@ -18,17 +18,17 @@ h6 {
 }
 
 h1 {
-	font-size: 1rem * $font-scale--default * $font-scale--default;
+	font-size: 1em * $font-scale--default * $font-scale--default;
 	margin-top: 0.5em;
 	margin-bottom: 0.8em;
 
 	@include media(m) {
-		font-size: 1rem * $font-scale--m * $font-scale--m;
+		font-size: 1em * $font-scale--m * $font-scale--m;
 		// color: aqua;
 	}
 
 	@include media(l) {
-		font-size: 1rem * $font-scale--l * $font-scale--l;
+		font-size: 1em * $font-scale--l * $font-scale--l;
 		// color: chartreuse;
 	}
 
@@ -37,22 +37,21 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem * $font-scale--default;
+	font-size: 1em * $font-scale--default;
 
 	@include media(m) {
-		font-size: 1rem * $font-scale--m;
+		font-size: 1em * $font-scale--m;
 	}
 
 	@include media(l) {
-		font-size: 1rem * $font-scale--l;
+		font-size: 1em * $font-scale--l;
 	}
 
 	letter-spacing: 0.02em;
 }
 
 h3 {
-	font-size: 1rem;
-
+	font-size: 1em;
 	letter-spacing: 0.03em;
 }
 
@@ -61,15 +60,15 @@ h4 {
 	margin-bottom: -0.3em;
 	color: #ff766e;
 
-	font-size: 1rem;
+	font-size: 1em;
 
 	letter-spacing: 0.03em;
 
 	@include media(m) {
-		font-size: 1rem * $font-scale--m;
+		font-size: 1em * $font-scale--m;
 	}
 
 	@include media(l) {
-		font-size: 1rem * $font-scale--l;
+		font-size: 1em * $font-scale--l;
 	}
 }

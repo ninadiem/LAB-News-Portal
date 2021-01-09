@@ -1,5 +1,5 @@
 .teaser {
-	background-color: white;
+	// background-color: white;
 	// box-shadow: 0 0.5em 2em 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -16,14 +16,21 @@
 	height: auto;
 }
 
-// .thema--underline {
-// 	width: min-content;
-// }
+.thema--underline--teaser {
+	width: min-content;
+}
 
 .teaser--gross {
+	background-color: white;
 	font-size: 1rem;
 }
 
+.teaser--mittel {
+	background-color: white;
+	font-size: 0.8rem;
+}
+
 .teaser--klein {
-	font-size: 0.2em;
+	background-color: white;
+	font-size: 0.6rem;
 }

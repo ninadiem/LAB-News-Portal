@@ -13,7 +13,20 @@ const Like = ({ start }) => {
 	return (
 		<div className={`like like--has${count > 0 ? "Likes" : "NoLikes"}`}>
 			<button className="like__btn" onClick={() => setCount(count + 1)}>
-				{count} Likes
+				<img
+					src="./assets/vectors/horn_Rot.svg"
+					alt="Horn"
+					className="like--icon"
+				/>{" "}
+				{count}
+			</button>
+			<button className="like__btn" onClick={() => setCount(count + 1)}>
+				<img
+					src="./assets/vectors/pferd_Rot.svg"
+					alt="Steckenpferd"
+					className="like--icon"
+				/>{" "}
+				{count}
 			</button>
 		</div>
 	);

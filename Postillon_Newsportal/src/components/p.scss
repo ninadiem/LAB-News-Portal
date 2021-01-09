@@ -1,11 +1,19 @@
 // Paragraph Handling
 
 p {
+	font-size: 0.7em * $font-scale--default * $font-scale--default;
 	margin-top: 0;
-	margin-bottom: 0.8rem;
-	font-size: 0.8rem;
+	margin-bottom: 0.8em;
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	line-height: 1.8em;
 	letter-spacing: 0.02em;
+
+	@include media(m) {
+		font-size: 0.7em * $font-scale--m;
+	}
+
+	@include media(l) {
+		font-size: 0.7em * $font-scale--l;
+	}
 }

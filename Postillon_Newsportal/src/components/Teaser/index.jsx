@@ -8,15 +8,15 @@ const Teaser = ({ src, genre, title, subtitle, type }) => {
 			<img src={src} alt="Testbild" />
 			<div class="content">
 				<div className="text--box">
-					<div className="thema--underline">
+					<div className="thema--underline--teaser">
 						<h4>{genre}</h4>
-						{/* <img src="./assets/vectors/linie.svg" alt="linie" /> */}
+						<img src="./assets/vectors/linie.svg" alt="linie" />
 					</div>
 					<h1>{title}</h1>
 					<p>{subtitle}</p>
 				</div>
 				<div class="like--komponente">
-					<Like start={54} />
+					<Like start={16} />
 				</div>
 			</div>
 		</div>
