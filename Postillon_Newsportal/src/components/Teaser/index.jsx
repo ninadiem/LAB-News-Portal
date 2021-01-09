@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Like from "../Like/index.jsx"
+import Like from "../Like/index.jsx";
 import "./styles.scss";
 
 const Teaser = ({ src, genre, title, subtitle, type }) => {
@@ -10,13 +10,13 @@ const Teaser = ({ src, genre, title, subtitle, type }) => {
 				<div className="text--box">
 					<div className="thema--underline">
 						<h4>{genre}</h4>
-						<img src="./assets/vectors/linie.svg" alt="linie" />
+						{/* <img src="./assets/vectors/linie.svg" alt="linie" /> */}
 					</div>
 					<h1>{title}</h1>
 					<p>{subtitle}</p>
 				</div>
 				<div class="like--komponente">
-					<Like start={54}/>
+					<Like start={54} />
 				</div>
 			</div>
 		</div>

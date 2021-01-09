@@ -34,23 +34,30 @@ nav {
 	}
 }
 
-.linie {
-	width: 45px;
-	height: 0.2em;
-	opacity: 0;
-	background-color: black;
-	transform: rotate(-10deg);
-	margin-top: 0;
+.thema--underline {
+	position: relative;
+	display: block;
 }
 
-.thema--underline:hover .linie {
-	opacity: 100;
-	background-color: #ff766e;
+.linie {
+	width: 100%;
+	height: 10px;
+	// opacity: 0;
+	// background-color: black;
+	border-bottom: 1px solid red;
+	// transform: rotate(-10deg);
+	transform: translateY(-20px) translateX(5px) rotate(27deg);
+	margin-top: 0;
+	position: absolute;
 }
+
+// .thema--underline:hover .linie {
+// 	opacity: 100%;
+// 	background-color: #ff766e;
+// }
 
 // --------------------------------- VAR 1 ---------------------------------
 
-<<<<<<< HEAD
 // .thema--underline .linie {
 // 	width: 45px;
 // 	height: 0.2em;
@@ -95,16 +102,13 @@ nav {
 // ul li .thema--underline:hover .linie {
 // 	background-color: #ff766e;
 // }
-=======
-.linie {
-    width: 112px;
-    height: 47px;
-    border-bottom: 1px solid red;
-    -webkit-transform:
-        translateY(-20px)
-        translateX(5px)
-        rotate(27deg); 
-    position: absolute;
-    /* top: -20px; */
-}
->>>>>>> beea2f15b8c8c4f6e85b7771f929f417fe9cea51
+
+// STEFAN
+// .linie {
+// 	width: 112px;
+// 	height: 47px;
+// 	border-bottom: 1px solid red;
+// 	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
+// 	position: absolute;
+// 	/* top: -20px; */
+// }
