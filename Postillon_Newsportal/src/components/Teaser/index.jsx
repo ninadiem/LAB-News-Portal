@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Like from "../Like/index.jsx";
 import "./styles.scss";
 
-const Teaser = ({ src, genre, title, subtitle, type }) => {
+const Teaser = ({ src, genre, articletype, title, subtitle, type }) => {
 	return (
 		<div className={`teaser teaser--${type}`}>
 			<img src={src} alt="Testbild" />
@@ -12,6 +12,7 @@ const Teaser = ({ src, genre, title, subtitle, type }) => {
 						<h4>{genre}</h4>
 						<img src="./assets/vectors/linie.svg" alt="linie" />
 					</div>
+					<h3>{articletype}</h3>
 					<h1>{title}</h1>
 					<p>{subtitle}</p>
 				</div>
