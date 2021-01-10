@@ -87,6 +87,8 @@
 .header-container-grid-1-2 {
 	grid-auto-flow: dense;
 	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: repeat(2, 1fr);
 	grid-template-areas:
 		"oben"
 		"trennlinie"
@@ -102,10 +104,12 @@
 	display: grid;
 	grid-area: oben;
 	grid-auto-flow: dense;
-	grid-template-areas: "logo . . . . wetter";
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: "logo logo . . . . wetter";
 	grid-gap: 0;
-	height: max-content;
 	border-bottom: 0.1em solid;
+	align-items: end;
 
 	// @include media(m) {
 	// 	grid-template-columns: repeat(16, 1fr);
@@ -121,6 +125,24 @@
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
+.wetter--icon {
+	width: 30%;
+	margin-left: 0.4em;
+}
+
+.wetter-widget {
+	grid-area: wetter;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	// margin-top: 1em;
+	// margin-bottom: 1em;
+}
+
 // .card-2-4 {
 // 	grid-column: span 2;
 // 	background-color: grey;
