@@ -83,23 +83,24 @@
 	grid-row: span 1;
 }
 
-// Header Container 1-2 Grid
+// Header Container Grid
 .header-container-grid-1-2 {
 	grid-auto-flow: dense;
 	display: grid;
 	grid-template-columns: 1;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto);
 	grid-template-areas:
 		"oben"
-		"trennlinie"
 		"unten";
 	grid-gap: 0;
 	width: 96%;
 	max-width: 42rem;
 	margin: 0 auto; // center
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
-// Header 2-2 Grid
+// Header Reihe 1 Grid
 .header-grid-reihe-1 {
 	display: grid;
 	grid-area: oben;
@@ -122,7 +123,6 @@
 
 .logo {
 	grid-area: logo;
-	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
@@ -138,9 +138,34 @@
 	align-items: center;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
 
-	// margin-top: 1em;
-	// margin-bottom: 1em;
+// Header Reihe 2 Grid
+.header-grid-reihe-2 {
+	display: grid;
+	grid-area: unten;
+	grid-auto-flow: dense;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: "menu menu menu . . . button";
+	grid-gap: 0;
+	// align-items: end;
+
+	// @include media(m) {
+	// 	grid-template-columns: repeat(16, 1fr);
+	// }
+
+	// @include media(l) {
+	// 	grid-template-columns: repeat(16, 1fr);
+	// }
+}
+
+.menu {
+	grid-area: menu;
+}
+
+.unterstuetzen {
+	grid-area: button;
 }
 
 // .card-2-4 {
