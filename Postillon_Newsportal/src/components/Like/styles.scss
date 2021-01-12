@@ -15,6 +15,7 @@
 	letter-spacing: 0.02em;
 	display: flex;
 	align-items: center;
+	width: 4em;
 
 	&:focus {
 		outline: 0 !important;
@@ -27,9 +28,11 @@
 }
 
 .like--komponente {
-	width: 2.5em;
+	// width: 2.5em;
 }
 
 .like--icon {
 	margin-right: 10%;
+	height: 1.5em;
+	width: auto;
 }
