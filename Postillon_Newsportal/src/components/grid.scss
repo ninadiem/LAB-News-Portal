@@ -145,10 +145,18 @@
 	display: grid;
 	grid-area: unten;
 	grid-auto-flow: dense;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(9, 1fr);
 	grid-template-rows: auto;
-	grid-template-areas: "menu menu menu . . . button";
+	grid-template-areas: "menu menu menu menu menu menu menu menu button";
 	grid-gap: 0;
+	grid-column-gap: 0.5rem;
+
+
+	// ⚠️ option non grid
+	// display: flex;
+	// justify-content: space-between;
+
+
 	// align-items: end;
 
 	// @include media(m) {
@@ -162,10 +170,15 @@
 
 .menu {
 	grid-area: menu;
+	// ⚠️ option non grid
+	// width: 80%;
+
 }
 
 .unterstuetzen {
 	grid-area: button;
+	// ⚠️ option non grid
+	// width: 15%;
 }
 
 // .card-2-4 {
