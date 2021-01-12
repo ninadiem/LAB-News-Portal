@@ -52,11 +52,13 @@ nav {
 	position: absolute;
 }
 
+.thema--underline.thema--active .linie,
 .thema--underline:hover .linie {
 	color: #ff766e;
 	opacity: 100;
 }
 
+.thema--underline.thema--active .menupunkt,
 .thema--underline:hover .menupunkt {
 	color: #ff766e;
 }
