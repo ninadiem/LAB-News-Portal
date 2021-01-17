@@ -20,14 +20,6 @@ const Like = ({ start }) => {
 				/>{" "}
 				{count}
 			</button>
-			<button className="like__btn" onClick={() => setCount(count + 1)}>
-				<img
-					src="./assets/vectors/pferd_Rot.svg"
-					alt="Steckenpferd"
-					className="like--icon"
-				/>{" "}
-				{count}
-			</button>
 		</div>
 	);
 };

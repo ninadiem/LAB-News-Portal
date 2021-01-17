@@ -1,0 +1,41 @@
+.like__btn {
+	color: #ff766e;
+	border: 0;
+	box-shadow: none;
+	background-color: transparent !important;
+	text-shadow: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	line-height: inherit;
+	font-size: 100%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	line-height: 1.8em;
+	letter-spacing: 0.02em;
+	display: flex;
+	align-items: center;
+	width: 4.5em;
+
+	&:focus {
+		outline: 0 !important;
+	}
+}
+
+.like {
+	display: flex !important;
+	align-items: center;
+}
+
+.like--komponente {
+	display: flex;
+	position: absolute;
+	left: 1.5em;
+	bottom: 1.5em;
+}
+
+.like--icon {
+	margin-right: 10%;
+	height: 2em;
+	width: auto;
+}

@@ -2,14 +2,8 @@
 	background-color: white;
 	width: 100vw;
 	height: auto;
-
-	// @include media(m) {
-	// 	grid-template-columns: repeat(16, 1fr);
-	// }
-
-	// @include media(l) {
-	// 	grid-template-columns: repeat(16, 1fr);
-	// }
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 }
 
 .footer-container {

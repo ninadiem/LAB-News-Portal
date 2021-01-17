@@ -9,7 +9,6 @@ html {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.6;
-	background-color: #ffefcb;
 
 	@include media(m) {
 		font-size: 18px;
@@ -23,4 +22,8 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
+}
+
+.hintergrund {
+	background-color: #ffefcb;
 }

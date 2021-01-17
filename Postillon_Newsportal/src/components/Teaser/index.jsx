@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Like from "../Like/index.jsx";
+import Share from "../Share/index.jsx";
 import "./styles.scss";
 
 const Teaser = ({ src, genre, articletype, title, subtitle, type }) => {
@@ -18,6 +19,7 @@ const Teaser = ({ src, genre, articletype, title, subtitle, type }) => {
 				</div>
 				<div class="like--komponente">
 					<Like start={16} />
+					<Share start={3} />
 				</div>
 			</div>
 		</div>
