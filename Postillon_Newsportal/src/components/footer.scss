@@ -14,7 +14,7 @@
 
 .footer-container {
 	width: 96%;
-	max-width: 42rem;
+	max-width: 60rem;
 	margin: 0 auto; // center
 	// padding-top: 1em;
 	// padding-bottom: 1em;
@@ -49,9 +49,9 @@
 	color: #77766c;
 }
 
-.zeile--1,
-.zeile--2,
-.zeile--3 {
+.zeile--1 p,
+.zeile--2 p,
+.zeile--3 p {
 	font-size: 0.5em * $font-scale--default * $font-scale--default;
 	color: #77766c;
 	margin-top: 0;
