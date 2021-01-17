@@ -46,31 +46,26 @@ nav {
 	width: 100%;
 	height: 10px;
 	opacity: 0;
-	border-bottom: 0.2em solid #ff766e;
+	border-bottom: 0.2em solid;
 	transform: translateY(-10px) translateX(0px) rotate(-8deg);
 	margin-top: 0;
 	position: absolute;
 }
 
-.thema--underline.thema--active .linie,
 .thema--underline:hover .linie {
 	color: #ff766e;
 	opacity: 100;
 }
 
-.thema--underline.thema--active .menupunkt,
+.thema--underline.thema--active .linie {
+	color: #a1001c;
+	opacity: 100;
+}
+
 .thema--underline:hover .menupunkt {
 	color: #ff766e;
 }
-
-a:focus .linie {
-	color: #a1001c;
-	button:focus {
-		outline: none;
-	}
-}
-
-.a:focus .menupunkt {
+.thema--underline.thema--active .menupunkt {
 	color: #a1001c;
 }
 

@@ -8,11 +8,12 @@
 }
 
 .text--box {
-	padding: 0%;
+	padding: 0;
+	margin-bottom: 20%;
 }
 
 .content {
-	padding: 8%;
+	padding: 1.5em;
 	height: auto;
 }
 
@@ -24,16 +25,19 @@
 	background-color: white;
 	font-size: 1rem;
 	box-shadow: 0 0.5em 2em 0 rgba(0, 0, 0, 0.1);
+	position: relative;
 }
 
 .teaser--mittel {
 	background-color: white;
 	font-size: 0.8rem;
 	box-shadow: 0 0.5em 2em 0 rgba(0, 0, 0, 0.1);
+	position: relative;
 }
 
 .teaser--klein {
 	background-color: white;
 	font-size: 0.6rem;
 	box-shadow: 0 0.5em 2em 0 rgba(0, 0, 0, 0.1);
+	position: relative;
 }
