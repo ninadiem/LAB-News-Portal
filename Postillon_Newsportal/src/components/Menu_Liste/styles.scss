@@ -4,7 +4,6 @@ nav {
 	height: auto;
 
 	ul {
-		// align-items: flex-start;
 		display: flex;
 		justify-content: space-between;
 
@@ -18,7 +17,6 @@ nav {
 			list-style: none;
 			display: inline-block;
 			padding: 0.5em 0;
-			// float: left;
 
 			font-size: 0.5rem * $font-scale--default * $font-scale--default;
 			margin-top: 0;
@@ -26,12 +24,10 @@ nav {
 
 			@include media(m) {
 				font-size: 0.5rem * $font-scale--m * $font-scale--m;
-				// color: aqua;
 			}
 
 			@include media(l) {
 				font-size: 0.5rem * $font-scale--l * $font-scale--l;
-				// color: chartreuse;
 			}
 		}
 	}

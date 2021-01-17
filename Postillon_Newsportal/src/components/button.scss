@@ -1,6 +1,6 @@
 .button {
 	font-family: "Poppins", sans-serif;
-	font-size: 0.5em * $font-scale--default * $font-scale--default;
+	font-size: 0.6em * $font-scale--default * $font-scale--default;
 	font-weight: 700;
 	line-height: 1.2em;
 	letter-spacing: 0.05em;
@@ -12,6 +12,14 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	margin: 0;
+	margin: 0.5em 0em 0.5em 0em;
 	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+.button:hover {
+	background-color: #a1001c;
 }
