@@ -72,9 +72,20 @@
 	}
 }
 
-// .werbung--zwei {
-// 	position: fixed;
-// }
+// volle höhe
+.werbung--zwei {
+	@include media(m) {
+		grid-row: span 3;
+	}
+}
+
+// innen (ad) oben sticky 
+.werbung--zwei__inner {
+	@include media(m) {
+		position: sticky;
+		top: 1rem;
+	}
+}
 
 .werbung--drei,
 .werbung--vier {

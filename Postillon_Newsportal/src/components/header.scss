@@ -40,6 +40,14 @@
 	font-style: italic;
 	line-height: 1.8em;
 	letter-spacing: 0.02em;
+
+	// put on one line
+	white-space: nowrap;
+    overflow-x: auto;
+	scrollbar-width: none; /* no-scrollbar: firefox */
+	&::-webkit-scrollbar {
+		display: none; /* no-scrollbar: Safari and Chrome */
+	}
 }
 
 .verlauf {
