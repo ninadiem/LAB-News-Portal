@@ -49,79 +49,18 @@ nav {
 }
 
 .thema--underline:hover .linie {
-	color: #ff766e;
+	color: #d63f37;
 	opacity: 100;
 }
 
 .thema--underline.thema--active .linie {
-	color: #a1001c;
+	color: #9d0010;
 	opacity: 100;
 }
 
 .thema--underline:hover .menupunkt {
-	color: #ff766e;
+	color: #d63f37;
 }
 .thema--underline.thema--active .menupunkt {
-	color: #a1001c;
+	color: #9d0010;
 }
-
-// a:focus {
-// 	color: #a1001c;
-// }
-
-// --------------------------------- VAR 1 ---------------------------------
-
-// .thema--underline .linie {
-// 	width: 45px;
-// 	height: 0.2em;
-// 	background-color: black;
-// 	-ms-transform: rotate(-10deg); /* IE 9 */
-// 	transform: rotate(-10deg);
-// 	margin-top: 0;
-// }
-
-// .thema--underline:hover .linie {
-// 	background-color: #ff766e;
-// }
-
-// --------------------------------- VAR 2 ---------------------------------
-// .home::after {
-// 	.linie {
-// 		width: 45px;
-// 		height: 0.2em;
-// 		background-color: black;
-// 		-ms-transform: rotate(-10deg); /* IE 9 */
-// 		transform: rotate(-10deg);
-// 		margin-top: 0;
-// 	}
-// }
-
-// .home:hover::after {
-// 	.linie {
-// 		background-color: #ff766e;
-// 	}
-// }
-
-// --------------------------------- VAR 3 ---------------------------------
-// ul li .thema--underline .linie {
-// 	width: 45px;
-// 	height: 0.2em;
-// 	background-color: black;
-// 	-ms-transform: rotate(-10deg); /* IE 9 */
-// 	transform: rotate(-10deg);
-// 	margin-top: 0;
-// }
-
-// ul li .thema--underline:hover .linie {
-// 	background-color: #ff766e;
-// }
-
-// STEFAN
-// .linie {
-// 	width: 112px;
-// 	height: 47px;
-// 	border-bottom: 1px solid red;
-// 	-webkit-transform: translateY(-20px) translateX(5px) rotate(27deg);
-// 	position: absolute;
-// 	/* top: -20px; */
-// }
