@@ -23,7 +23,7 @@
 	display: grid;
 	background-color: white;
 	grid-template-columns: repeat(5, 1fr);
-
+	margin-bottom: 1em;
 	grid-template-rows: auto;
 	grid-gap: 0;
 }
@@ -43,7 +43,7 @@
 
 	// put on one line
 	white-space: nowrap;
-    overflow-x: auto;
+	overflow-x: auto;
 	scrollbar-width: none; /* no-scrollbar: firefox */
 	&::-webkit-scrollbar {
 		display: none; /* no-scrollbar: Safari and Chrome */
