@@ -18,8 +18,8 @@ const Teaser = ({ src, genre, articletype, title, subtitle, type }) => {
 					<p>{subtitle}</p>
 				</div>
 				<div class="like--komponente">
-					<Like start={16} />
-					<Share start={3} />
+					<Like start={287} />
+					<Share start={413} />
 				</div>
 			</div>
 		</div>

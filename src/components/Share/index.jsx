@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.scss";
+import "../Like/styles.scss";
 
 // icon importieren
 // import React from "react";

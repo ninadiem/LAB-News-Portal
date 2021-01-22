@@ -15,20 +15,20 @@
 	letter-spacing: 0.02em;
 	display: flex;
 	align-items: center;
-	width: 4em;
+	width: 5em;
 
 	&:focus {
 		outline: 0 !important;
 	}
 }
 
-.like,
-.share {
+.like {
 	display: flex !important;
 	align-items: center;
 }
 
 .like--komponente {
+	display: flex;
 	position: absolute;
 	left: 1.5em;
 	bottom: 1.5em;
